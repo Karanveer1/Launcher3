@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/service_layout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/btn_service_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Services"
+        android:textAllCaps="false"
+        android:textColor="@color/nubit_headingColor"
+        android:textSize="@dimen/nubit_heading_size"
+        android:textStyle="bold" />
+
+<!--
+    <ImageButton
+        android:id="@+id/services_spinner"
+        style="?android:attr/actionOverflowButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/spinner_right_margin" />-->
+
+
+    <include
+        android:id="@+id/devider_below_btnService"
+        layout="@layout/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/btn_service_title"
+        android:layout_marginTop="10dp" />
+
+
+    <com.skd.nubit.utilityclasses.MyGridView
+        android:id="@+id/service_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/devider_below_btnService"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:clipToPadding="false"
+        android:columnWidth="120dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:verticalSpacing="10dp" />
+
+    <com.skd.nubit.utilityclasses.DropDownViewControler
+        android:id="@+id/dropdown_below_service_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/service_grid"
+        android:layout_marginTop="5dp" />
+
+
+    <include
+        android:id="@+id/devider_below_service_grid"
+        layout="@layout/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_below="@+id/dropdown_below_service_grid"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
+

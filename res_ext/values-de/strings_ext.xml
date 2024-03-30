@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"Startbildschirmstil"</string>
+<string name="home_screen_style_notification">"Änderungen für Startbildschirmstil werden angewendet"</string>
+<string name="folder_icon_model_pref_title">"Ordnersymbolstil"</string>
+<string name="auto_model">"Autom."</string>
+<string name="annular_model">"Kreisförmig"</string>
+<string name="grid_model">"Raster"</string>
+<string name="desktop_grid">"Desktopraster"</string>
+<string name="notification_dots_ext_summary">"Wenn Notification Dots aktiviert ist"</string>
+  <string name="home_screen_style_dual">"Mit App-Schublade"</string>
+  <string name="home_screen_style_dual_summary">"Platzieren Sie das Symbol für alle Anwendungen in der Schublade App"</string>
+  <string name="home_screen_style_regular">"Regelmäßig"</string>
+  <string name="home_screen_style_single">"Keine App-Schublade"</string>
+  <string name="home_screen_style_single_summary">"Symbol für alle Anwendungen auf dem Desktop anzeigen"</string>
+</resources>

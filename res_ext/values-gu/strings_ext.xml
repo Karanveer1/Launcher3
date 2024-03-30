@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"હોમ સ્ક્રીનની સ્ટાઇલ"</string>
+<string name="home_screen_style_notification">"હોમ સ્ક્રીન સ્ટાઇલના ફેરફારોને લાગુ કરી રહ્યું છે"</string>
+<string name="folder_icon_model_pref_title">"ફોલ્ડરના આઇકનની સ્ટાઇલ"</string>
+<string name="auto_model">પ્રમાણિકરણનો પ્રકાર</string>
+<string name="annular_model">"વલયાકાર"</string>
+<string name="grid_model">"ગ્રીડ"</string>
+<string name="desktop_grid">"ડેસ્કટૉપની ગ્રિડ"</string>
+<string name="notification_dots_ext_summary">"જ્યારે નોટિફિકેશનના ડૉટ્સ ચાલુ હોય"</string>
+  <string name="home_screen_style_dual">"એપ્લિકેશન ડ્રોઅર સાથે"</string>
+  <string name="home_screen_style_dual_summary">"તમામ એપ્લિકેશનોના આઇકનને એપ્લિકેશન ડ્રોઅરમાં મૂકો"</string>
+  <string name="home_screen_style_regular">"નિયમિત"</string>
+  <string name="home_screen_style_single">"કોઈ એપ્લિકેશન ડ્રોઅર નથી"</string>
+  <string name="home_screen_style_single_summary">"તમામ એપ્લિકેશનોના આઇકનને ડેસ્કટૉપ પર બતાવો"</string>
+</resources>

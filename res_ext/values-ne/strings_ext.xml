@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"गृह स्क्रीन शैली"</string>
+<string name="home_screen_style_notification">"गृह स्क्रीन शैली परिवर्तनहरु लागू गर्दै"</string>
+<string name="folder_icon_model_pref_title">"फोल्डर आइकन शैली"</string>
+<string name="auto_model">"स्वतः निर्धारित"</string>
+<string name="annular_model">"एन्नुलर"</string>
+<string name="grid_model">"ग्रिड"</string>
+<string name="desktop_grid">"डेस्कटप ग्रिड"</string>
+<string name="notification_dots_ext_summary">"जब जानकारी डटहरू अन हुन्छ"</string>
+  <string name="home_screen_style_dual">"एप ड्रयर सँग"</string>
+  <string name="home_screen_style_dual_summary">"सबै एप आइकनहरू एप ड्रयरमा राख्नुहोस् ।"</string>
+  <string name="home_screen_style_regular">"नियमित"</string>
+  <string name="home_screen_style_single">"एप ड्रयर छैन"</string>
+  <string name="home_screen_style_single_summary">"डेस्कटपमा सबै एपहरूको आइकन देखाउनुहोस्"</string>
+</resources>

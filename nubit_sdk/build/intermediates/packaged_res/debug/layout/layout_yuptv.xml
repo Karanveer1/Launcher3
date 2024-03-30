@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/back_livetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/profile_back" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Live TV"
+            android:textColor="@color/magenta_new"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/txt_devider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/mainlayout"
+        android:layout_marginTop="10dp"
+        android:background="@color/light_black_low" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_devider"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" />
+
+    <View
+        android:id="@+id/txt_devider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/recycler_language"
+        android:layout_marginTop="10dp"
+        android:background="@color/light_black_low" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_chanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_devider2"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateTint="@color/magenta_new" />
+
+
+    <RelativeLayout
+        android:id="@+id/layoutAdMob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" />
+
+
+</RelativeLayout>

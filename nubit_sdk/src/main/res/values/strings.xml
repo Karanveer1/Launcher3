@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Nubit SDK</string>
+    <string name="my_app_name">Nubit SDK</string>
+    <string name="no_internet">No internet found. Pls check your connection or try again.</string>
+    <string name="drawer_close">Closed</string>
+    <string name="drawer_open">Open</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7690725764223876/2767660727</string>
+    <string name="copy_right"> © All Rights Reserved.</string>
+    <string name="title_activity_you_tube__screen">YouTube_Screen</string>
+    <string name="loading_video">Loading video…</string>
+
+</resources>

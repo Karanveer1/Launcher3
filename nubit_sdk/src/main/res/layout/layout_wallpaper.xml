@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wallpaper_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:id="@+id/wallpaper_ref_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/btn_wallpaper_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="Wallpaper"
+            android:textAllCaps="false"
+            android:textColor="@color/nubit_headingColor"
+            android:textSize="@dimen/nubit_heading_size"
+            android:textStyle="bold" />
+
+      <RelativeLayout
+          android:id="@+id/ref_spin_container"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_wallpaper_ref"
+            android:layout_width="@dimen/ref_btn_size"
+            android:layout_height="@dimen/ref_btn_size"
+            android:padding="@dimen/ref_btn_padding"
+            android:layout_marginRight="@dimen/read_more_margin"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/refresh" />
+
+        <!--<ImageButton
+            android:id="@+id/wallpaper_spinner"
+            style="?android:attr/actionOverflowButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/spinner_right_margin" />-->
+      </RelativeLayout>
+
+        <include
+            android:id="@+id/devider_below_wallpaper_ref"
+            layout="@layout/view_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/btn_wallpaper_title"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wallpaper_recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:scrollbars="none" />
+
+    <include
+        android:id="@+id/devider_below_wallpaper"
+        layout="@layout/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"Kezdőképernyő stílusa"</string>
+<string name="home_screen_style_notification">"Kezdőképernyő stílusmódosításainak alkalmazása"</string>
+<string name="folder_icon_model_pref_title">"Mappaikon stílusa"</string>
+<string name="auto_model">"Automatikus"</string>
+<string name="annular_model">"Gyűrűs"</string>
+<string name="grid_model">"rács"</string>
+<string name="desktop_grid">"Asztali rács"</string>
+<string name="notification_dots_ext_summary">"Amikor be vannak kapcsolva az értesítési pontok"</string>
+  <string name="home_screen_style_dual">"App fiókkal"</string>
+  <string name="home_screen_style_dual_summary">"Helyezze az összes alkalmazás ikont az App fiókba"</string>
+  <string name="home_screen_style_regular">"Normál"</string>
+  <string name="home_screen_style_single">"Nincs App fiók"</string>
+  <string name="home_screen_style_single_summary">"Az összes alkalmazás ikon megjelenítése az Asztalon"</string>
+</resources>

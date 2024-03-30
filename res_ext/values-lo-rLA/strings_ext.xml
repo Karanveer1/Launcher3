@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dynamic_icon_title">"ໄອຄອນໄດນາມິກ"</string>
+    <string name="allow_circular_sliding_title">"ລະບົບໜ້າຈໍຫຼັກ"</string>
+    <string name="allow_circular_sliding_summary">"ການຕັ້ງຄ່າໜ້າທີ່ຕ້ອງການແມ່ນບໍ່ເຂົ້າກັບລະບົບໜ້າຈໍຫຼັກ"</string>
+</resources>

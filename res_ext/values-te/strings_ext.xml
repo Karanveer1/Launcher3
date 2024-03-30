@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="annular_model">"యాన్యులర్"</string>
+  <string name="auto_model">"ఆటో"</string>
+  <string name="desktop_grid">"డెస్క్‌టాప్ గ్రిడ్"</string>
+  <string name="folder_icon_model_pref_title">"పోల్డర్ ఐకాన్ స్టైల్"</string>
+  <string name="grid_model">"గ్రిడ్"</string>
+  <string name="home_screen_style_dual">"యాప్ డ్రాయిర్‌తో"</string>
+  <string name="home_screen_style_dual_summary">"అన్ని యాప్ ఐకాన్‌లను యాప్ డ్రాయర్‌లో ఉంచండి"</string>
+  <string name="home_screen_style_notification">"హోమ్ స్క్రీన్ స్టైల్ మార్పులను అప్లై చేస్తోంది"</string>
+  <string name="home_screen_style_regular">"రెగ్యులర్"</string>
+  <string name="home_screen_style_single">"యాప్ డ్రాయిర్‌ లేదు"</string>
+  <string name="home_screen_style_single_summary">"డెస్క్‌టాప్‌పై అన్ని యాప్‌ల ఐకాన్‌ని చూపించు"</string>
+  <string name="home_screen_style_title">"హోమ్ స్క్రీన్"</string>
+  <string name="notification_dots_ext_summary">"నోటిఫికేషన్ డాట్‌లను ఆన్ చేసినప్పుడు"</string>
+</resources>

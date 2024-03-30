@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dynamic_icon_title">"រូបតំណាងថាមវន្ត"</string>
+    <string name="allow_circular_sliding_title">"រង្វិលជុំទំព័រដើម"</string>
+    <string name="allow_circular_sliding_summary">"ការកំណត់មាតិកាផ្នែកខាងឆ្វេងមិនអនុញ្ញាត រង្វិលជុំអេក្រង់ដើមទេ"</string>
+</resources>

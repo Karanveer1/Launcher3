@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+* Copyright (C) 2013 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- UNISOC: add for single layer -->
+    <string name="home_screen_style_title">"主螢幕風格"</string>
+    <string name="home_screen_style_regular">標準樣式</string>
+    <string name="home_screen_style_single">無抽屜樣式</string>
+    <string name="home_screen_style_single_summary">在桌面上顯示所有安裝應用圖標</string>
+    <string name="home_screen_style_dual">抽屜樣式</string>
+    <string name="home_screen_style_dual_summary">在抽屜中顯示所有安裝應用圖標</string>
+    <string name="home_screen_style_notification">"正在套用桌面樣式變更"</string>
+
+    <!-- UNISOC Add for folder icon model -->
+    <string name="folder_icon_model_pref_title">資料夾圖標樣式</string>
+    <string name="auto_model">自适应</string>
+    <string name="annular_model">環形</string>
+    <string name="grid_model">網格</string>
+
+    <!-- Add for desktop grid customization -->
+    <string name="desktop_grid">"桌面網格"</string>
+
+    <string name="notification_dots_ext_summary">通知圓點開啟時</string>
+</resources>

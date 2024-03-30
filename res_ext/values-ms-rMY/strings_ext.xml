@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dynamic_icon_title">"Ikon dinamik"</string>
+<string name="allow_circular_sliding_title">"Gelung skrin laman utama"</string>
+<string name="allow_circular_sliding_summary">"Tetapan Halaman Kiri Kandungan Tersuai tidak membenarkan gelung skrin Laman Utama"</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"මුල් තිර විලාසය"</string>
+<string name="home_screen_style_notification">"මුල් තිර විලාසයේ වෙනස්කම් අදාළ කර ගනිමින් ඇත"</string>
+<string name="folder_icon_model_pref_title">"ෆෝල්ඩර අයිකන් විලාසය"</string>
+<string name="auto_model">"ස්වයං"</string>
+<string name="annular_model">"වාර්ෂිකව"</string>
+<string name="grid_model">"ජාලය"</string>
+<string name="desktop_grid">"ඩෙස්ක්ටොප් දැල"</string>
+<string name="notification_dots_ext_summary">"දැනුම්දීමේ තිත් ක්‍රියාත්මක විට"</string>
+  <string name="home_screen_style_dual">"යෙදුම් ලාච්චුව සමඟ"</string>
+  <string name="home_screen_style_dual_summary">"සියලුම යෙදුම් අයිකන යෙදුම් ලාච්චුව තුළ තබන්න"</string>
+  <string name="home_screen_style_regular">"නිත්‍ය"</string>
+  <string name="home_screen_style_single">"යෙදුම් ලාච්චුවක් නැත්"</string>
+  <string name="home_screen_style_single_summary">"ඩෙස්ක්ටොප් මත සියලුම යෙදුම් අයිකන පෙන්වන්න"</string>
+</resources>

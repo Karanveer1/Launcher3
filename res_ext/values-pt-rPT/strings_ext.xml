@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="home_screen_style_title">"Estilo do ecrã inicial"</string>
+  <string name="home_screen_style_notification">"A aplicar as alterações de estilo ao ecrã inicial"</string>
+  <string name="folder_icon_model_pref_title">"Estilo do ícone de pasta"</string>
+  <string name="auto_model">Auto</string>
+  <string name="annular_model">"Anelar"</string>
+  <string name="grid_model">"grelha"</string>
+  <string name="desktop_grid">"Grelha de área de trabalho"</string>
+  <string name="notification_dots_ext_summary">"Quando os pontos de notificação estão ativos"</string>
+  <string name="home_screen_style_dual">"Com gaveta de App"</string>
+  <string name="home_screen_style_dual_summary">"Coloca todos os ícones na gaveta da App"</string>
+  <string name="home_screen_style_regular">"Normal"</string>
+  <string name="home_screen_style_single">"Sem gaveta de App"</string>
+  <string name="home_screen_style_single_summary">"Mostrar todos os ícones da app no Ambiente de Trabalho"</string>
+
+  <!-- add for app icon label display double lines -->
+  <string name="icon_label_line_title">"Ícone label display double lines"</string>
+
+  <string name="all_apps_search_more_results">"PESQUISA POR MAIS APLICAÇÕES"</string>
+  <string name="all_apps_search_more_failed">"Não foi possível abrir a loja de aplicações"</string>
+</resources>

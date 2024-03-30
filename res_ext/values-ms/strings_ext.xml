@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"Gaya skrin utama"</string>
+<string name="home_screen_style_notification">"Menggunakan perubahan gaya skrin utama"</string>
+<string name="folder_icon_model_pref_title">"Gaya ikon folder"</string>
+<string name="auto_model">"Auto"</string>
+<string name="annular_model">"Anulus"</string>
+<string name="grid_model">"grid"</string>
+<string name="desktop_grid">"Grid desktop"</string>
+<string name="notification_dots_ext_summary">"Apabila titik pemberitahuan dihidupkan"</string>
+  <string name="home_screen_style_dual">"Dengan laci aplikasi"</string>
+  <string name="home_screen_style_dual_summary">"Letakkan semua ikon aplikasi di laci Aplikasi"</string>
+  <string name="home_screen_style_regular">"Biasa"</string>
+  <string name="home_screen_style_single">"Tiada laci Aplikasi"</string>
+  <string name="home_screen_style_single_summary">"Papar semula ikon aplikasi di Desktop"</string>
+</resources>

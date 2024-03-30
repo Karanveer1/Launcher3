@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNews_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/btn_bottom_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="News"
+        android:textAllCaps="false"
+        android:textColor="@color/nubit_headingColor"
+        android:textSize="@dimen/nubit_heading_size"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_add_pub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/read_more_margin"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:visibility="gone"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:stateListAnimator="@null"
+        android:text="ADD PUBLISHER"
+        android:textAllCaps="false"
+        android:textColor="@color/button_text_style"
+        android:textSize="10sp"
+        android:textStyle="normal" />
+
+
+    <include
+        android:id="@+id/devider_bottom_news_ref"
+        layout="@layout/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:visibility="gone"
+        android:layout_below="@+id/btn_bottom_news_title"
+        android:layout_marginTop="10dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bottomNews_recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/devider_bottom_news_ref"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:scrollbars="none" />
+
+
+    <include
+        android:id="@+id/devider_below_bottomNews"
+        layout="@layout/view_divider"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="12dp"
+        android:layout_below="@+id/bottomNews_recyclerView"
+        android:layout_marginTop="2dp" />
+
+
+</RelativeLayout>

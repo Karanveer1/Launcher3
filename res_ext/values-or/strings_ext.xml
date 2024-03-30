@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"ହୋମ୍‍ ସ୍କ୍ରୀନ ଷ୍ଟାଇଲ"</string>
+<string name="home_screen_style_notification">"ହୋମ୍‍ ସ୍କ୍ରୀନ ଷ୍ଟାଇଲ ବଦଳ କରାଯାଉଛି"</string>
+<string name="folder_icon_model_pref_title">"ଫୋଲ୍ଡର ଆଇକନ ଷ୍ଟାଇଲ"</string>
+<string name="auto_model">"ଆପେ"</string>
+<string name="annular_model">"ବଳୟାକାର"</string>
+<string name="grid_model">"ଗ୍ରୀଡ୍"</string>
+<string name="desktop_grid">"ଡେସ୍କଟପ୍‍ ଗ୍ରୀଡ"</string>
+<string name="notification_dots_ext_summary">"ଯେତେବେଳେ ବିଜ୍ଞପ୍ତି ବିନ୍ଦୁଗୁଡ଼ିକ ଚାଲୁ ଥାଏ"</string>
+  <string name="home_screen_style_dual">"ଆପ୍ ଡ୍ରୟର ସହ"</string>
+  <string name="home_screen_style_dual_summary">"ଆପ୍ ଡ୍ରୟରରେ ସମସ୍ତ ଆପ୍ ଆଇକନ୍ ରଖନ୍ତୁ"</string>
+  <string name="home_screen_style_regular">"ନିୟମିତ"</string>
+  <string name="home_screen_style_single">"କୌଣସି ଆପ୍ ଡ୍ରୟର୍‌ ନାହିଁ"</string>
+  <string name="home_screen_style_single_summary">"ଡେସ୍କଟପରେ ସମସ୍ତ ଆପ୍ ଆଇକନ୍ ଦେଖାନ୍ତୁ"</string>
+</resources>

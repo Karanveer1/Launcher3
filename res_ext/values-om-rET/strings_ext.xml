@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dynamic_icon_title">"Sajoo human cimaa"</string>
+    <string name="allow_circular_sliding_title">"Argii marsaa ka\'umsa"</string>
+    <string name="allow_circular_sliding_summary">"Fuuli qindaa\'inna bitaa qabiyyeen mamila argii marsaa ka\'umsa hin eyyaammu"</string>
+</resources>

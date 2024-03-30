@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- add for dynamic icon feature, start-->
+    <color name="dynamic_calendar_week">#FFA8A8A8</color>
+    <color name="dynamic_calendar_date">#FFF95858</color>
+    <!-- add for dynamic icon feature, end-->
+    <!-- add for unread dot feature, start-->
+    <color name="unread_dot_bg_color">#FFFF0000</color>
+    <color name="unread_dot_text_color">#FFFFFFFF</color>
+    <!-- add for unread dot feature, end-->
+
+    <!-- add for folder icon feature, start-->
+    <color name="default_gridFolderPageStrokeColor">#66FFFFFF</color>
+    <color name="dark_gridFolderPageStrokeColor">#FF80868B</color>
+    <!-- add for folder icon feature, end-->
+</resources>

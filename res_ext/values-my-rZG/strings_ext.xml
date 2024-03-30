@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"ပင္မစခရင္ စတိုင္"</string>
+    <string name="home_screen_style_notification">"ပင္မစခရင္စတိုင္ ျပင္ဆင္ခ်က္မ်ား သက္ေရာက္ေအာင္လုပ္ေနသည္"</string>
+    <string name="folder_icon_model_pref_title">"ဖိုင္တြဲအိုင္ကြန္ စတိုင္"</string>
+    <string name="auto_model">"အလိုအေလ်ာက္"</string>
+    <string name="annular_model">"ကြင္းပံုစံ"</string>
+    <string name="grid_model">"ဇကာကြက္"</string>
+    <string name="desktop_grid">"ဒက္စေတာ့ပ္ ဂရစ္မ်ဥ္း"</string>
+</resources>

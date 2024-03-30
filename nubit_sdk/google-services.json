@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "627655030768",
+    "firebase_url": "https://nubitlavasdk.firebaseio.com",
+    "project_id": "nubitlavasdk",
+    "storage_bucket": "nubitlavasdk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627655030768:android:eb59827a377f8c2e",
+        "android_client_info": {
+          "package_name": "com.nubit.sdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627655030768-disf3clbfdkp3hsp02lh8djaf14tg0ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2lR8IsfeYqTQIPN77MJAaU7AkavLZZNA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

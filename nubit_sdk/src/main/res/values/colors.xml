@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="delete_target_hover_tint">#FFC1C1C1</color>
+    <color name="uninstall_target_hover_tint">#FFF0592B</color>
+
+    <color name="focused_background">#80c6c5c5</color>
+
+    <color name="workspace_icon_text_color">#FFF</color>
+
+    <color name="workspace_edge_effect_color">#FFFFFFFF</color>
+    <color name="folder_edge_effect_color">#FF757575</color>
+    <color name="page_indicator_dot_color">#FFDDDDDD</color>
+
+    <color name="quantum_panel_text_color">#FF666666</color>
+    <color name="quantum_panel_bg_color">#FFF5F5F5</color>
+
+    <color name="outline_color">#FFFFFFFF</color>
+    <color name="all_apps_divider_color">#1E000000</color>
+    <color name="all_apps_caret_color">#FFFFFFFF</color>
+    <color name="all_apps_caret_shadow_color">#22000000</color>
+    <color name="all_apps_container_color">#FFF2F2F2</color>
+    <color name="all_apps_navbar_color">#28000000</color>
+
+    <color name="spring_loaded_panel_color">#40FFFFFF</color>
+    <color name="spring_loaded_highlighted_panel_border_color">#FFF</color>
+
+    <!-- Widgets view -->
+    <color name="widgets_view_section_text_color">#FFFFFF</color>
+    <color name="widgets_view_item_text_color">#C4C4C4</color>
+    <color name="txt_perm_des">#7b7b7b</color>
+
+    <!-- Used as a fallback since colorSecondary doesn't exist pre-API 25 -->
+    <color name="fallback_secondary_color">#FF37474F</color>
+
+    <!-- Pixel -->
+    <color name="qsb_connector">#fff2f2f2</color>
+    <color name="qsb_background">#ffffffff</color>
+    <color name="primaryColor">#ff2d2d2d</color>
+    <color name="secondaryColor">#ff3a3a3a</color>
+    <color name="accentColor">#ff4286f4</color>
+
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#ff0000</color>
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+    <color name="nubitColor">#fafafa</color>
+    <color name="homeTabColorSelected">#f1ac19</color>
+    <color name="homeTabColorUnSelected">#707070</color>
+    <color name="utility_ItemSelectedColor">#f1ac19</color>
+    <color name="nubit_light_pink">#f1ac19</color>
+    <color name="utility_ItemUnSelectedColor">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="fb_login_background">#5577BF</color>
+    <color name="google_login_background">#D2413C</color>
+    <color name="nubit_headingColor">#707070</color>
+    <color name="magenta_new">#E7087F</color>
+    <color name="nubit_magenta">#ff0083</color>
+    <color name="magenta_orignal">#ff0055</color>
+    <color name="nubit_switch">#e60280</color>
+    <color name="nubit_background_color">#f0f0f0</color>
+    <color name="findmebtn">#FFF0892B</color>
+    <color name="transparent_nubit">@android:color/transparent</color>
+    <color name="light_black">#4b4b4b</color>
+    <color name="light_black_low">#C0C0C0</color>
+    <color name="light_black_one">#e1e1e1</color>
+    <color name="circle_bg">#edf1f5</color>
+
+    <color name="pop_up_text">#696969</color>
+
+
+
+
+</resources>

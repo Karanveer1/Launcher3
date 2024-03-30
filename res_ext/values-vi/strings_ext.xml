@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="annular_model">"Vòng"</string>
+  <string name="auto_model">"Tự động"</string>
+  <string name="desktop_grid">"Lưới màn hình"</string>
+  <string name="folder_icon_model_pref_title">"Kiểu biểu tượng thư mục"</string>
+  <string name="grid_model">"Lưới"</string>
+  <string name="home_screen_style_dual">"có ngăn ứng dụng"</string>
+  <string name="home_screen_style_dual_summary">"Đặt tất cả biểu tượng ứng dụng vào ngăn Ứng dụng"</string>
+  <string name="home_screen_style_notification">"Áp dụng các thay đổi kiểu màn hình chính"</string>
+  <string name="home_screen_style_regular">"Thường xuyên"</string>
+  <string name="home_screen_style_single">"Không có ngăn ứng dụng"</string>
+  <string name="home_screen_style_single_summary">"Hiển thị tất cả biểu tượng ứng dụng trên Màn hình"</string>
+  <string name="home_screen_style_title">"Màn hình chính"</string>
+  <string name="notification_dots_ext_summary">"Khi các dấu chấm thông báo được bật"</string>
+</resources>

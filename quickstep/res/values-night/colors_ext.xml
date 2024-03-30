@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="recent_lock_icon_bgcolor">#55000000</color>
+    <color name="clear_all_bg">#80808080</color>
+    <color name="meminfo_text_color">#000000</color>
+</resources>

@@ -1,0 +1,9 @@
+//include ':IconLoader'
+//project(':IconLoader').projectDir = new File(rootDir, 'iconloaderlib')
+//
+//include ':SharedLibWrapper'
+//project(':SharedLibWrapper').projectDir = new File(rootDir, 'SharedLibWrapper')
+
+//include ':nubit_sdk'
+//project(':nubit_sdk').projectDir = new File(rootDir, 'nubit_sdk')
+include ':nubit_sdk'

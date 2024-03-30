@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"Hasierako pantailaren estiloa"</string>
+<string name="home_screen_style_notification">"Estiloarekin loturiko aldaketak aplikatzen hasierako pantailan"</string>
+<string name="folder_icon_model_pref_title">"Karpetaren ikonoaren estiloa"</string>
+<string name="auto_model">AUTOMATIKOA</string>
+<string name="annular_model">"Eraztun-itxurakoa"</string>
+<string name="grid_model">"sareta"</string>
+<string name="desktop_grid">"Mahaigaineko sareta"</string>
+<string name="notification_dots_ext_summary">"Jakinarazpen burbuilak gaituta daudenean"</string>
+  <string name="home_screen_style_dual">"App tiraderarekin"</string>
+  <string name="home_screen_style_dual_summary">"Jarri aplikazio guztien ikonoa aplikazioen tiraderan"</string>
+  <string name="home_screen_style_regular">"Regular"</string>
+  <string name="home_screen_style_single">"Ez dago aplikazioaren tiraderarik"</string>
+  <string name="home_screen_style_single_summary">"Erakutsi aplikazio guztien ikonoa mahaigainean"</string>
+</resources>

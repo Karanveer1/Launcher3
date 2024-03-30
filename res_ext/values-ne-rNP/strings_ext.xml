@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dynamic_icon_title">"डाइनामिक प्रतिमा"</string>
+    <string name="allow_circular_sliding_title">"गृह स्क्रिनको लुप"</string>
+    <string name="allow_circular_sliding_summary">"बायाँ पृष्ठअनुसार अनुकूल पारिएको सेटिङले गृह स्क्रिन लुप गर्ने अनुमति दिँदैन"</string>
+</resources>

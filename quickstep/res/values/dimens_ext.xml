@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- new feature of quick cleaning. -->
+    <dimen name="task_thumbnail_top_margin">24dp</dimen>
+    <dimen name="task_lock_icon_padding">3dp</dimen>
+    <dimen name="recents_tasklock_enddisplacement">17dp</dimen>
+    <dimen name="recents_meminfo_text_size">15dp</dimen>
+    <dimen name="recents_meminfo_height">24dp</dimen>
+    <dimen name="recents_clearall_text_size">15dp</dimen>
+    <dimen name="recents_clearall_height">26dp</dimen>
+    <dimen name="recents_bottom_padding">3dp</dimen>
+    <dimen name="clear_all_corner_radius">4dp</dimen>
+    <dimen name="clear_all_horizontal_paddding">8dp</dimen>
+    <!-- UNISOC add for bug1650446:Overlapping adaptation of the OverView interface on the Go version-->
+    <dimen name="go_overview_adaptive_height_navigationBar">1dp</dimen>
+    <dimen name="go_overview_adaptive_height">4dp</dimen>
+</resources>

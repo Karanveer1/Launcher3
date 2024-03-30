@@ -1,0 +1,144 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Universal.Widget.ProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/uvv_progress_rotate</item>
+        <item name="android:indeterminateDuration">1000</item>
+    </style>
+
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/transparent_nubit</item>
+        <item name="colorPrimaryDark">@color/transparent_nubit</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="textinputstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/light_black_low</item>
+    </style>
+
+
+    <!-- Launcher theme -->
+    <style name="BaseLauncherTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="LauncherTheme" parent="@style/BaseLauncherTheme"></style>
+
+    <style name="Theme" parent="@style/LauncherTheme"></style>
+
+
+    <!-- Overscroll effect -->
+    <style name="CustomOverscroll" />
+
+
+    <style name="DropTargetButtonContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Different icons -->
+    <style name="Icon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">@color/workspace_icon_text_color</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowColor">#B0000000</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+
+    <style name="buckettheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="editfields">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColorHint">@color/light_black_low</item>
+        <item name="colorAccent">#ff7070</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/pop_up_text</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="colorControlHighlight">#000000</item>
+
+    </style>
+
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">#707070
+        </item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">#000000
+        </item> <!-- activated color change as you wish -->
+        <item name="android:textColor">#000000</item> <!-- checkbox text color -->
+    </style>
+
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="colorControlActivated">#f0f0f0</item>
+        <item name="colorControlHighlight">#f0f0f0</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="window">
+        <item name="android:windowEnterAnimation">@anim/anim_in</item>
+        <item name="android:windowExitAnimation">@anim/out_anim</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RKTswitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/nubit_switch</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+</resources>

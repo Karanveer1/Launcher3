@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"Stile schermata Home"</string>
+<string name="home_screen_style_notification">"Applicazione modifiche stile schermata Home in corso"</string>
+<string name="folder_icon_model_pref_title">"Stile icona cartella"</string>
+<string name="auto_model">"Autom."</string>
+<string name="annular_model">"Anulare"</string>
+<string name="grid_model">"griglia"</string>
+<string name="desktop_grid">"Griglia di desktop"</string>
+<string name="notification_dots_ext_summary">"Quando i puntini di notifica sono attivati"</string>
+  <string name="home_screen_style_dual">"con cassetto APP"</string>
+  <string name="home_screen_style_dual_summary">"mettere le icone delle app nel cassetto APP"</string>
+  <string name="home_screen_style_regular">"Normale"</string>
+  <string name="home_screen_style_single">"Nessun cassetto App"</string>
+  <string name="home_screen_style_single_summary">"Mostrare le icone delle App sul desktop"</string>
+</resources>

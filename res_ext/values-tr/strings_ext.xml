@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"Ana ekran stili"</string>
+    <string name="home_screen_style_notification">"Ana ekran stil değişiklikleri uygulanıyor"</string>
+    <string name="folder_icon_model_pref_title">"Klasör simge stili"</string>
+    <string name="auto_model">"Otomatik"</string>
+    <string name="annular_model">"Dairesel"</string>
+    <string name="grid_model">"şebeke"</string>
+    <string name="desktop_grid">"Masaüstü kılavuzu"</string>
+    <string name="notification_dots_ext_summary">"Bildirim sayısı simgesi açıkken"</string>
+  <string name="home_screen_style_dual">"App drawer ile"</string>
+  <string name="home_screen_style_dual_summary">"Tüm uygulamaların simgelerini app drawerda göster"</string>
+  <string name="home_screen_style_regular">"Normal"</string>
+  <string name="home_screen_style_single">"App drawer yok"</string>
+  <string name="home_screen_style_single_summary">"Tüm uygulamaların simgelerini masaüstünde göster"</string>
+</resources>

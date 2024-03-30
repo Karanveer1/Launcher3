@@ -1,0 +1,33 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/enterrainment_cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="2dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/entertainment_items_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/entertainment_banner"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_height="match_parent"/>
+
+        <include
+            android:id="@+id/layout_admob"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/layout_admob" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

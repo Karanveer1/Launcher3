@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dynamic_icon_title">"Calaamada socota"</string>
+    <string name="allow_circular_sliding_title">"Muuqaalka shaahada gudaha"</string>
+    <string name="allow_circular_sliding_summary">"Mawduuca Macmiilak ee Bogga Bidix setting-keeda ma ogola muuqaalka shaashada"</string>
+</resources>

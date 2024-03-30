@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.skd.nubit.adapters.ViewPagerRecyclerView
+        android:id="@+id/recycler_vierw"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:visibility="gone"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerNew"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+
+</LinearLayout>

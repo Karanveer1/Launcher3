@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"ລັກສະນະໜ້າຈໍຫຼັກ"</string>
+<string name="home_screen_style_notification">"ກໍາລັງປ່ຽນລັກສະນະຂອງໜ້າຈໍຫຼັກ"</string>
+<string name="folder_icon_model_pref_title">"ລັກສະນະໄອຄອນຂອງໂຟລເດີ"</string>
+<string name="auto_model">"ອັດຕະໂນມັດ"</string>
+<string name="annular_model">"ວົງແຫວນ"</string>
+<string name="grid_model">"ເກຣິດ"</string>
+<string name="desktop_grid">"ຕາໜ່າງໜ້າຄອມພິວເຕີຕັ້ງໂຕະ"</string>
+<string name="notification_dots_ext_summary">"ເມື່ອເປີດຈຸດການແຈ້ງເຕືອນ"</string>
+  <string name="home_screen_style_dual">"ກັບກ່ອງ App"</string>
+  <string name="home_screen_style_dual_summary">"ວາງ ໄອຄອນ app ທັງໝົດໃນ ກ່ອງ App"</string>
+  <string name="home_screen_style_regular">"ປົກະຕິ"</string>
+  <string name="home_screen_style_single">"ບໍ່ມີ ກ່ອງ App"</string>
+  <string name="home_screen_style_single_summary">"ສະແດງໄອຄອນ app ທັງໝົດເທິງ Desktop"</string>
+</resources>

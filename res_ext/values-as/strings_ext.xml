@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"গৃহ স্ক্ৰীণৰ শৈলী"</string>
+<string name="home_screen_style_notification">"গৃহ স্ক্ৰীণৰ শৈলীৰ পৰিবৰ্তন প্ৰয়োগ কৰি আছে"</string>
+<string name="folder_icon_model_pref_title">"ফল্ডাৰ আইকন শৈলী"</string>
+<string name="auto_model">"অটো"</string>
+<string name="annular_model">"বলয়াকাৰ"</string>
+<string name="grid_model">"গ্ৰিড"</string>
+<string name="desktop_grid">"ডেস্কটপ গ্ৰিড"</string>
+<string name="notification_dots_ext_summary">"যেতিয়া অধিসূচনা ডটসমূহ অন থাকে"</string>
+  <string name="home_screen_style_dual">"এপ ড্ৰয়াৰৰ সৈতে"</string>
+  <string name="home_screen_style_dual_summary">"সকলো এপৰ আইকন এপ ড্ৰয়াৰত স্থাপন কৰক"</string>
+  <string name="home_screen_style_regular">"নিয়মীয়া"</string>
+  <string name="home_screen_style_single">"কোনো এপ ড্ৰয়াৰ নাই"</string>
+  <string name="home_screen_style_single_summary">"সকলো এপৰ আইকন ডেস্কটপত দেখুৱাওক"</string>
+</resources>

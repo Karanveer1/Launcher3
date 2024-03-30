@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dynamic_icon_title">"ডাইনামিক আইকোন"</string>
+<string name="allow_circular_sliding_title">"হোম স্ক্রীন লুপ""</string>
+<string name="allow_circular_sliding_summary">"প্রথাগত বিষয়বস্তু বাম পৃষ্ঠা সেটিং, হোম স্ক্রীন লুপকে অনুমতি দেয় না"</string>
+</resources>

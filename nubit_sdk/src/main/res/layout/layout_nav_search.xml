@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#F3F0F0"
+    android:paddingBottom="5dp"
+    android:paddingTop="14dp"
+    android:focusableInTouchMode="true">
+
+
+    <ImageView
+        android:id="@+id/nav_icon"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_nav" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="8dp"
+        android:background="@drawable/edt_search_style"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/edt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:visibility="visible"
+            android:layout_alignParentStart="true"
+            android:focusableInTouchMode="true"
+            android:hint="Search"
+            android:imeOptions="actionSearch"
+            android:layout_toLeftOf="@+id/nav_search"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="12dp"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textColorHint="@color/nubit_headingColor"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/nav_search"
+            android:layout_width="29dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="6dp"
+            android:layout_centerVertical="true"
+            android:paddingHorizontal="10dp"
+            android:layout_alignParentEnd="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/search_text"
+            android:tint="@color/nubit_headingColor"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingRight="4dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="3dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            android:src="@drawable/summer" />
+
+        <LinearLayout
+            android:id="@+id/ll_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_teemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:stateListAnimator="@null"
+                android:text="14 C"
+                android:textAllCaps="false"
+                android:textColor="@color/nubit_headingColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:stateListAnimator="@null"
+                android:text="Hazy sunshine"
+                android:textAllCaps="false"
+                android:textColor="@color/nubit_headingColor"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:stateListAnimator="@null"
+                android:text="Moderate"
+                android:textAllCaps="false"
+                android:textColor="@color/nubit_headingColor"
+                android:textSize="8sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"نمط الشاشة الرئيسية"</string>
+    <string name="home_screen_style_notification">"تطبيق تغييرات نمط الشاشة الرئيسية"</string>
+    <string name="folder_icon_model_pref_title">"نمط أيقونة المجلد"</string>
+    <string name="auto_model">"تلقائي"</string>
+    <string name="annular_model">"حلقي"</string>
+    <string name="grid_model">"الشبكة"</string>
+    <string name="desktop_grid">"شبكة سطح المكتب"</string>
+    <string name="notification_dots_ext_summary">"عندما تكون نقاط الإشعار قيد التشغيل"</string>
+  <string name="home_screen_style_dual">"مع واجهة التطبيقات"</string>
+  <string name="home_screen_style_dual_summary">"ضع كل أيقونات التطبيقات في واجهة التطبيقات"</string>
+  <string name="home_screen_style_regular">"عادي"</string>
+  <string name="home_screen_style_single">"لا توجد واجهة تطبيقات"</string>
+  <string name="home_screen_style_single_summary">"عرض كل أيقونات التطبيقات على سطح المكتب"</string>
+</resources>

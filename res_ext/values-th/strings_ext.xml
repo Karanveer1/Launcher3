@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"สไตล์ของหน้าจอหลัก"</string>
+    <string name="home_screen_style_notification">"กำลังเปลี่ยนสไตล์ของหน้าจอหลัก"</string>
+    <string name="folder_icon_model_pref_title">"สไตล์ของไอคอนโฟลเดอร์"</string>
+    <string name="auto_model">"อัตโนมัติ"</string>
+    <string name="annular_model">"รูปวงแหวน"</string>
+    <string name="grid_model">"ตาราง"</string>
+    <string name="desktop_grid">"เส้นตารางเดสก์ท็อป"</string>
+    <string name="notification_dots_ext_summary">"เมื่อจุดแจ้งเตือนเปิดอยู่"</string>
+  <string name="home_screen_style_dual">"ด้วยลิ้นชักแอป"</string>
+  <string name="home_screen_style_dual_summary">"วางไอคอนแอปทั้งหมดในลิ้นชักแอป"</string>
+  <string name="home_screen_style_regular">"ปกติ"</string>
+  <string name="home_screen_style_single">"ไม่มีลิ้นชักแอป"</string>
+  <string name="home_screen_style_single_summary">"แสดงไอคอนแอปทั้งหมดบนเดสก์ท็อป"</string>
+</resources>

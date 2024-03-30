@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_nubitview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="invisible">
+
+
+    <androidx.drawerlayout.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <LinearLayout
+            android:id="@+id/linearlayout_nav_search_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fafafa"
+            android:visibility="visible">
+
+            <include
+                android:id="@+id/layout_nav_search"
+                layout="@layout/layout_nav_search"
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content"/>
+
+            <!--            <com.simplemobiletools.test.utilityclasses.VideoPlayerRecyclerView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="250dp"-->
+            <!--                android:id="@+id/recycler_view"-->
+            <!--                android:visibility="gone"-->
+            <!--                android:orientation="horizontal">-->
+
+            <!--            </com.simplemobiletools.test.utilityclasses.VideoPlayerRecyclerView>-->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                android:background="#000"
+                android:scaleType="center"
+                android:id="@+id/media_containerf"
+                android:visibility="gone">
+
+            </FrameLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_cec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F6F6F6"
+                    android:orientation="vertical">
+
+                    <com.skd.nubit.utilityclasses.CustomNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/nested_scroolview_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/layout_container_nubitview"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#F3F0F0"
+                                android:visibility="gone"
+                                android:descendantFocusability="blocksDescendants"
+                                android:orientation="vertical">
+
+                                <WebView
+                                    android:id="@+id/rkt_webview"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="gone" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/parentLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#F3F0F0"
+                                android:descendantFocusability="blocksDescendants"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </com.skd.nubit.utilityclasses.CustomNestedScrollView>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_new_main"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+
+        </LinearLayout>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginRight="40dp"
+            app:headerLayout="@layout/nav_header"
+            app:itemIconTint="@color/light_black"
+            android:background="#ffffff"
+            app:itemTextColor="@color/light_black" />
+        <!-- app:menu="@menu/menu_navigation" />-->
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+    <include
+        android:id="@+id/move"
+        layout="@layout/layout_scroll_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ad_plus_floater_layout"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp" />
+
+
+    <ProgressBar
+        android:id="@+id/progress_home"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/magenta_new"
+        android:indeterminateTintMode="src_atop"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/fram_layout_floater"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_plus_floater_layout"
+        android:visibility="gone">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/floater_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="110dp"
+            android:layout_marginLeft="25dp"
+            android:scrollbars="none" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/nubit_floater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="15dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_add"
+            app:backgroundTint="@color/magenta_new"
+            app:elevation="0dp"
+            app:fabCustomSize="45dp"
+            app:pressedTranslationZ="12dp" />
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ad_plus_floater_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ad_cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            android:src="@drawable/ad_crossed"
+            android:visibility="gone" />
+
+
+        <RelativeLayout
+            android:id="@+id/layoutAdMob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal" />
+
+        <View
+            android:id="@+id/view_blank_robiLauncher"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/nointernet_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+
+
+        <ProgressBar
+            android:id="@+id/pro_nointernet"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/nubit_magenta"
+            android:indeterminateTintMode="src_atop"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_ohno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Oh no!"
+            android:textColor="@color/light_black"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_nointernet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_ohno"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:text="no_internet"
+            android:textColor="@color/light_black"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_nointernet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/profile_set_riple"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:stateListAnimator="@null"
+            android:text="RETRY"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_scroll_to_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="15dp"
+            app:maxImageSize="14dp"
+            app:useCompatPadding="true"
+            android:src="@drawable/up_arrow"
+            app:fabSize="mini"
+            app:borderWidth="0dp"
+            android:backgroundTint="#000000"
+            android:alpha="0.5"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+

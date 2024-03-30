@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"होम स्क्रीन स्टाइल" </string>
+    <string name="home_screen_style_notification">"होम स्क्रीन स्टाइल के परिवर्तन को लागू करना"</string>
+    <string name="folder_icon_model_pref_title">"फोल्डर आईकॉन स्टाइल"</string>
+    <string name="auto_model">"स्वत"</string>
+    <string name="annular_model">" चक्राकार"</string>
+    <string name="grid_model">"ग्रिड"</string>
+    <string name="desktop_grid">"डेस्कटॉप ग्रिड"</string>
+    <string name="notification_dots_ext_summary">"जब अधिसूचना डॉट्स ऑन हैं"</string>
+  <string name="home_screen_style_dual">"ऐप ड्रॉअर के साथ"</string>
+  <string name="home_screen_style_dual_summary">"ऐप ड्रॉअर में सभी ऐप आइकन रखें"</string>
+  <string name="home_screen_style_regular">"नियमित"</string>
+  <string name="home_screen_style_single">"कोई ऐप ड्रॉअर नहीं"</string>
+  <string name="home_screen_style_single_summary">"डेस्कटॉप पर सभी ऐप्स आइकन दिखाएं"</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"Istilo ng home screen"</string>
+    <string name="home_screen_style_notification">"Inilalapat ang mga pagbabago sa istilo ng home screen"</string>
+    <string name="folder_icon_model_pref_title">"Istilo ng icon ng folder"</string>
+    <string name="auto_model">"Awto"</string>
+    <string name="annular_model">"Annular"</string>
+    <string name="grid_model">"parilya"</string>
+    <string name="desktop_grid">"Grid ng desktop"</string>
+    <string name="notification_dots_ext_summary">"Kapag naka-on ang notification dots"</string>
+  <string name="home_screen_style_dual">"Kasama ang App drawer"</string>
+  <string name="home_screen_style_dual_summary">"Ilagay ang lahat ng icon ng app sa App Drawer"</string>
+  <string name="home_screen_style_regular">"Regular"</string>
+  <string name="home_screen_style_single">"Walang App drawer"</string>
+  <string name="home_screen_style_single_summary">"Ipakita lahat ng icon ng mga app sa Desktop"</string>
+</resources>

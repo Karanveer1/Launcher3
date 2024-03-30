@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"ပင်မစခရင် စတိုင်"</string>
+<string name="home_screen_style_notification">"ပင်မစခရင် စတိုင်ပြောင်းခြင်းများ သက်ရောက်နေသည်"</string>
+<string name="folder_icon_model_pref_title">"ဖိုင်တွဲ အိုင်ကွန် စတိုင်"</string>
+<string name="auto_model">"အလိုအလျောက်"</string>
+<string name="annular_model">"ကွင်းဖြစ်နေ"</string>
+<string name="grid_model">"ဂရစ်"</string>
+<string name="desktop_grid">"ဒက်စတော့ပ် ဂရစ်မျဉ်း"</string>
+<string name="notification_dots_ext_summary">"အသိပေးချက်အစက်များကို ဖွင့်ထားချိန်တွင်"</string>
+  <string name="home_screen_style_dual">"အပ္ အံဆြဲႏွင့္အတူ  "</string>
+  <string name="home_screen_style_dual_summary">"အပ္မ်ားအားလံုးကို အံဆြဲထဲသို႔ထည့္ပါ"</string>
+  <string name="home_screen_style_regular">"ပံုမွန္"</string>
+  <string name="home_screen_style_single">"အပ္အံဆြဲမရွိပါ"</string>
+  <string name="home_screen_style_single_summary">"Desktop တြင္ အပ္မ်ားအားလံုးျပပါ"</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dynamic_icon_title">"ගතික අයිකනය"</string>
+<string name="allow_circular_sliding_title">"මුල් තිර ලූපය"</string>
+<string name="allow_circular_sliding_summary">"රිසි අන්තර්ගත වම පිටුවේ පසුතල මුල් තිර ලූපයට අවසර නොදේ"</string>
+</resources>

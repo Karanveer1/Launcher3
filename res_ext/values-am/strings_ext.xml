@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">የመነሻ ማያ ቅጥ</string>
+    <string name="home_screen_style_notification">የመነሻ ማያ ቅጥ ለውጦችን በመተግበር ላይ</string>
+    <string name="folder_icon_model_pref_title">የአቃፊ አዶ ቅጥ</string>
+    <string name="auto_model">"ራስ ሰር"</string>
+    <string name="annular_model">ቀለበት ቅርጽ</string>
+    <string name="grid_model">"መስመር"</string>
+    <string name="desktop_grid">የዴስክቶፕ ፍርግርግ</string>
+    <string name="notification_dots_ext_summary">"የማሳወቂያ ነጥቦች ሲበሩ"</string>
+  <string name="home_screen_style_dual">"ከመተግበሪያ ማውጫ ጋር"</string>
+  <string name="home_screen_style_dual_summary">"ሁሉንም የመተግበሪያ ምልክቶች በመተገበሪያ ማውጫ ውስጥ ይክተቱ"</string>
+  <string name="home_screen_style_regular">"መደበኛ"</string>
+  <string name="home_screen_style_single">"መተግበሪያ ማውጫ የለም"</string>
+  <string name="home_screen_style_single_summary">"ሁሉንም የዴስክቶፕ መተግበሪያ ምልክቶች አሳይ"</string>
+</resources>

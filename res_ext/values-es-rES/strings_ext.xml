@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dynamic_icon_title">"Icono dinámico"</string>
+    <string name="allow_circular_sliding_title">"Bucle de la pantalla de inicio"</string>
+    <string name="allow_circular_sliding_summary">"La opción Página izquierda de contenido personalizado no permite el bucle de la página de inicio"</string>
+</resources>

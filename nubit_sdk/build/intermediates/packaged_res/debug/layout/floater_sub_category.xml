@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floater_sub_container_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null">
+
+    <FrameLayout
+        android:id="@+id/floater_sub_container_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:id="@+id/floater_sub_container_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/floater_subcate_style"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_dialog_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Title"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:id="@+id/btn_devider"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff"
+                    android:text="Divider" />
+
+
+                <com.skd.nubit.utilityclasses.MyGridView
+                    android:id="@+id/floater_subcategory_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:clipToPadding="false"
+                    android:columnWidth="120dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:numColumns="4"
+                    android:verticalSpacing="10dp" />
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/popup_cross_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:src="@drawable/popup_cross_button" />
+    </FrameLayout>
+</FrameLayout>

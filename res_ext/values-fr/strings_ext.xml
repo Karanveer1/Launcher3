@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">" Style de l’écran d’accueil "</string>
+<string name="home_screen_style_notification">" Application des modifications du style d’écran d’accueil "</string>
+<string name="folder_icon_model_pref_title">" Style d’icône du dossier "</string>
+<string name="auto_model">"Automatique"</string>
+<string name="annular_model">" Annulaire "</string>
+<string name="grid_model">"grille"</string>
+<string name="desktop_grid">" Grille du bureau "</string>
+<string name="notification_dots_ext_summary">"Lorsque les points de notification sont activés"</string>
+  <string name="home_screen_style_dual">"Avec tiroir d'applications"</string>
+  <string name="home_screen_style_dual_summary">"Placez l'icône de toutes les applications dans le tiroir des applications"</string>
+  <string name="home_screen_style_regular">"Normal"</string>
+  <string name="home_screen_style_single">"Pas de tiroir d'applications"</string>
+  <string name="home_screen_style_single_summary">"Afficher toutes les icônes des applications sur le bureau"</string>
+
+  <!-- add for app icon label display double lines -->
+  <string name="icon_label_line_title">"Icône Tags affichage double ligne"</string>
+
+  <string name="all_apps_search_more_results">"Rechercher plus d'applications"</string>
+  <string name="all_apps_search_more_failed">"Impossible d'ouvrir l'app store"</string>
+</resources>

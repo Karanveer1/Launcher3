@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"Aloitusnäytön tyyli"</string>
+<string name="home_screen_style_notification">"Otetaan käyttöön aloitusnäytön tyylimuutoksia"</string>
+<string name="folder_icon_model_pref_title">"Kansiokuvakkeen tyyli"</string>
+<string name="auto_model">"auto"</string>
+<string name="annular_model">"Pyöreä"</string>
+<string name="grid_model">"ruudukko"</string>
+<string name="desktop_grid">"Työpöytäruudukko"</string>
+<string name="notification_dots_ext_summary">"Kun ilmoituspisteet ovat päällä"</string>
+  <string name="home_screen_style_dual">"Sovelluslaatikolla"</string>
+  <string name="home_screen_style_dual_summary">"Aseta kaikki sovellukset -kuvake Sovellusten laatikkoon"</string>
+  <string name="home_screen_style_regular">"Normaali"</string>
+  <string name="home_screen_style_single">"Ei sovelluslaatikkoa"</string>
+  <string name="home_screen_style_single_summary">"Näytä kaikki sovellukset työpöydällä"</string>
+</resources>

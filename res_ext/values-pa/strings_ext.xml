@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"ਹੋਮ ਸਕ੍ਰੀਨ ਸਟਾਈਲ"</string>
+<string name="home_screen_style_notification">"ਹੋਮ ਸਕ੍ਰੀਨ ਸਟਾਈਲ ਵਿੱਚ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਕਰ ਰਿਹਾ ਹੈ"</string>
+<string name="folder_icon_model_pref_title">"ਫੋਲਡਰ ਆਈਕਨ ਸਟਾਈਲ"</string>
+<string name="auto_model">ਸਵੈਚਾਲਿਤ</string>
+<string name="annular_model">"ਗੋਲਾਕਾਰ"</string>
+<string name="grid_model">"ਗ੍ਰਿਡ"</string>
+<string name="desktop_grid">"ਡੈਸਕਟਾਪ ਗ੍ਰਿਡ"</string>
+<string name="notification_dots_ext_summary">"ਜਦੋਂ ਨੋਟੀਫਿਕੇਸ਼ਨ ਡਾਟਸ ਚਾਲੂ ਹੋਣ"</string>
+  <string name="home_screen_style_dual">"ਐਪ ਡਰਾਅਰ ਨਾਲ"</string>
+  <string name="home_screen_style_dual_summary">"ਸਾਰੀਆਂ ਐਪਾਂ ਨੂੰ ਐਪ ਡਰਾਅਰ ਵਿੱਚ ਰੱਖੋ"</string>
+  <string name="home_screen_style_regular">"ਨਿਯਮਿਤ"</string>
+  <string name="home_screen_style_single">"ਕੋਈ ਐਪ ਡਰਾਅਰ ਨਹੀਂ ਹੈ"</string>
+  <string name="home_screen_style_single_summary">"ਸਾਰੇ ਐਪ ਆਈਕੋਨ ਡੈਸਕਟੌਪ 'ਤੇ ਦਿਖਾਓ"</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dynamic_icon_title">"Dinamička ikona"</string>
+<string name="allow_circular_sliding_title">"Petlja početnog ekrana"</string>
+<string name="allow_circular_sliding_summary">"Ako ima podrazumevanu levu stranu, ne dozvolite petlju početnog ekrana"</string>
+</resources>

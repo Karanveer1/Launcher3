@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"Mtindo wa skrini ya mwanzo"</string>
+    <string name="home_screen_style_notification">"Kutekeleza mabadiliko ya mtindo wa skrini ya mwanzo"</string>
+    <string name="folder_icon_model_pref_title">"Mtindo wa ikoni ya folda"</string>
+    <string name="auto_model">Kiotomati</string>
+    <string name="annular_model">"Umbo la pete"</string>
+    <string name="grid_model">"Gridi"</string>
+    <string name="desktop_grid">"Gridi ya eneo-kazi"</string>
+    <string name="notification_dots_ext_summary">"Wakati nukta za taarifa zimewashwa"</string>
+  <string name="home_screen_style_dual">"Na App ya kuchora "</string>
+  <string name="home_screen_style_dual_summary">"Weka ikoni za apps zote kwenye App ya kuchora"</string>
+  <string name="home_screen_style_regular">"Kawaida"</string>
+  <string name="home_screen_style_single">"Hamna App ya kuchora"</string>
+  <string name="home_screen_style_single_summary">"Onesha ikoni za apps zote za Eneo Kazi "</string>
+</resources>

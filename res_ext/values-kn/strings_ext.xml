@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಶೈಲಿ"</string>
+<string name="home_screen_style_notification">"ಹೋಮ್ ಸ್ಕ್ರೀನ್ ಶೈಲಿಯ ಬದಲಾವಣೆಗಳನ್ನು ಅನ್ವಯಿಸಲಾಗುತ್ತಿದೆ"</string>
+<string name="folder_icon_model_pref_title">"ಫೋಲ್ಡರ್ ಐಕಾನ್ ಶೈಲಿ"</string>
+<string name="auto_model">"ಸ್ವಯಂಚಾಲನೆ"</string>
+<string name="annular_model">"ಆನ್ಯುಲರ್"</string>
+<string name="grid_model">"ಗ್ರಿಡ್"</string>
+<string name="desktop_grid">"ಡೆಸ್ಕ್ಟಾಪ್ ಗ್ರಿಡ್"</string>
+<string name="notification_dots_ext_summary">"ಅಧಿಸೂಚನೆ ಚುಕ್ಕೆಗಳು ಆನ್ ಆಗಿರುವಾಗ"</string>
+  <string name="home_screen_style_dual">"ಆ್ಯಪ್ ಡ್ರಾಯರ್‌ನೊಂದಿಗೆ"</string>
+  <string name="home_screen_style_dual_summary">"ಎಲ್ಲಾ ಆ್ಯಪ್‌ಗಳ ಐಕಾನ್ ಅನ್ನು ಆ್ಯಪ್ ಡ್ರಾಯರ್‌ನಲ್ಲಿಡಿ"</string>
+  <string name="home_screen_style_regular">"ನಿಯಮಿತ"</string>
+  <string name="home_screen_style_single">"ಯಾವುದೇ ಆ್ಯಪ್ ಡ್ರಾಯರ್ ಇಲ್ಲ"</string>
+  <string name="home_screen_style_single_summary">"ಡೆಸ್ಕ್‌ಟಾಪ್‌ನಲ್ಲಿ ಎಲ್ಲಾ ಆ್ಯಪ್‌ಗಳ ಐಕಾನ್ ಅನ್ನು ಪ್ರದರ್ಶಿಸಿ"</string>
+</resources>

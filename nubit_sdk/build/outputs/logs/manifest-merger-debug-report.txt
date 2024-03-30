@@ -1,0 +1,271 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:2:1-143:12
+INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:2:1-143:12
+INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:2:1-143:12
+	package
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:10:9-55
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:12:5-13:47
+	tools:ignore
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:12:22-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:15:22-72
+uses-permission#android.permission.INTERNET
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:19:22-64
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:22:22-72
+uses-feature#android.hardware.camera
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:24:5-60
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:24:19-57
+uses-feature#android.hardware.camera.flash
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:25:5-66
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:25:19-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:28:5-65
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:28:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:29:5-71
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:29:22-68
+application
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:31:5-141:19
+	android:supportsRtl
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:37:9-35
+	android:label
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:35:9-41
+	android:roundIcon
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:36:9-51
+	android:icon
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:34:9-46
+	android:allowBackup
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:38:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:39:9-69
+	android:usesCleartextTraffic
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:40:9-44
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:32:9-66
+activity#com.skd.nubit.videoplayerstuffs.YouTube_PlayerActivity
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:41:9-48:74
+	android:screenOrientation
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:46:13-29
+	android:autoRemoveFromRecents
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:43:13-49
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:44:13-37
+	android:configChanges
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:45:13-74
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:48:13-71
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:42:13-82
+activity#com.skd.nubit.youtubewebview.YouTubeIframe
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:51:9-58:49
+	android:label
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:57:13-29
+	android:hardwareAccelerated
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:56:13-47
+	android:autoRemoveFromRecents
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:53:13-49
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:54:13-37
+	android:configChanges
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:55:13-74
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:58:13-46
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:52:13-70
+activity#com.skd.nubit.activities.YouTube_Screen
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:60:9-67:74
+	android:screenOrientation
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:66:13-49
+	android:label
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:65:13-29
+	android:autoRemoveFromRecents
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:62:13-49
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:63:13-37
+	android:configChanges
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:64:13-74
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:67:13-71
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:61:13-67
+activity#com.skd.nubit.youtubewebview.YouTubeScreenIframe
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:69:9-75:49
+	android:label
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:74:13-29
+	android:autoRemoveFromRecents
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:71:13-49
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:72:13-37
+	android:configChanges
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:73:13-74
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:75:13-46
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:70:13-76
+activity#com.skd.nubit.videoplayerstuffs.PlayerActivity
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:78:9-83:55
+	android:screenOrientation
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:81:13-49
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:82:13-37
+	android:configChanges
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:80:13-74
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:83:13-52
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:79:13-74
+activity#com.skd.nubit.utilityclasses.NativeWebViewActivity
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:84:9-91:50
+	android:excludeFromRecents
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:87:13-46
+	android:launchMode
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:89:13-48
+	android:noHistory
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:90:13-37
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:88:13-37
+	android:configChanges
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:86:13-59
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:91:13-47
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:85:13-78
+activity#com.skd.nubit.activities.WallpaperActivity
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:92:9-96:50
+	android:screenOrientation
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:94:13-49
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:95:13-37
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:96:13-47
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:93:13-70
+activity#com.skd.nubit.activities.Language_Set_Activity
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:97:9-102:66
+	android:screenOrientation
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:100:13-49
+	android:noHistory
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:99:13-37
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:101:13-37
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:102:13-63
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:98:13-74
+activity#com.skd.nubit.activities.ProfileActivity
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:103:9-109:57
+	android:screenOrientation
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:106:13-49
+	android:label
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:105:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:109:13-54
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:107:13-37
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:108:13-63
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:104:13-68
+activity#com.skd.nubit.activities.YupTv_Activity
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:110:9-115:66
+	android:screenOrientation
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:114:13-49
+	android:label
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:112:13-36
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:113:13-37
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:115:13-63
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:111:13-67
+activity#com.skd.nubit.mynotification.Notification_Handler
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:116:9-121:57
+	android:screenOrientation
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:118:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:121:13-54
+	android:exported
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:120:13-37
+	android:theme
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:119:13-44
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:117:13-77
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:136:9-139:15
+	android:value
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:138:13-67
+	android:name
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:137:13-69
+uses-sdk
+INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- add for icon unread dot-->
+    <dimen name="unread_pref_customize_padding">8dp</dimen>
+    <dimen name="hotseat_dot_margin_x">4dp</dimen>
+    <dimen name="hotseat_dot_margin_y">4dp</dimen>
+    <dimen name="workspace_dot_margin_x">4dp</dimen>
+    <dimen name="workspace_dot_margin_y">4dp</dimen>
+    <dimen name="app_dot_margin_x">4dp</dimen>
+    <dimen name="app_dot_margin_y">4dp</dimen>
+    <dimen name="folder_dot_margin_x">4dp</dimen>
+    <dimen name="folder_dot_margin_y">4dp</dimen>
+    <dimen name="workspace_folder_dot_margin_x">2dp</dimen>
+    <dimen name="workspace_folder_dot_margin_y">2dp</dimen>
+    <dimen name="hotseat_folder_dot_margin_x">2dp</dimen>
+    <dimen name="hotseat_folder_dot_margin_y">4dp</dimen>
+
+    <!--add for folder icon Model-->
+    <dimen name="grid_folder_page_elevation">5dp</dimen>
+    <dimen name="grid_folder_page_radius">10dp</dimen>
+    <dimen name="grid_folder_page_Stroke_width">1dp</dimen>
+    <dimen name="grid_folder_tab_margin_bottom">10dp</dimen>
+    <dimen name="grid_folder_page_view_padding">12dp</dimen>
+
+    <!-- add for app icon label display double lines -->
+    <dimen name="min_folder_cell_y_padding">2dp</dimen>
+
+    <!-- add for app folders -->
+    <dimen name="folder_label_padding_top">4dp</dimen>
+    <dimen name="folder_label_padding_bottom">12dp</dimen>
+    <dimen name="folder_label_text_size">14sp</dimen>
+    <dimen name="folder_label_height">48dp</dimen>
+
+    <!-- add for tablet -->
+    <dimen name="bg_all_apps_searchbox_corners_radius">2dp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="pref_notification_dots_ext"
+        android:title="@string/notification_dots_ext_title"
+        android:summary="@string/notification_dots_ext_summary"
+        android:defaultValue="@bool/show_notification_dots_num" />
+
+    <SwitchPreference
+        android:key="pref_icon_label_line"
+        android:defaultValue="@bool/enable_icon_label_show_double_lines" />
+
+<!--    <PreferenceCategory-->
+<!--         android:key="pref_dynamicIcon"-->
+<!--         android:title="@string/dynamic_icon_title">-->
+<!--         <SwitchPreference-->
+<!--             android:key="pref_dynamic_calendar"-->
+<!--             android:title="@string/dynamic_calendar"-->
+<!--             android:defaultValue="@bool/dynamic_calendar_default_state" />-->
+<!--         <SwitchPreference-->
+<!--             android:key="pref_dynamic_clock"-->
+<!--             android:title="@string/dynamic_clock"-->
+<!--             android:defaultValue="@bool/dynamic_clock_default_state" />-->
+<!--    </PreferenceCategory>-->
+
+
+
+</androidx.preference.PreferenceScreen>

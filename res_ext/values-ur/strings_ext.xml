@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">" ہوم اسکرین کا طرز"</string>
+<string name="home_screen_style_notification">" ہوم اسکرین کا استعمال کرتے ہوئے طرز تبدیل کریں"</string>
+<string name="folder_icon_model_pref_title">" فولڈر آئیکن طرز"</string>
+<string name="auto_model">"خودکار"</string>
+<string name="annular_model">"چھلا نما"</string>
+<string name="grid_model">"گرڈ"</string>
+<string name="desktop_grid">" ڈیسکٹاپ گرڈ"</string>
+<string name="notification_dots_ext_summary">"جب نوٹیفیکیشن ڈاٹس چالو ہوں"</string>
+  <string name="home_screen_style_dual">"ایپ ڈرائر سے"</string>
+  <string name="home_screen_style_dual_summary">"تمام ایپس آئکون ایپ ڈرائر میں رکھیں"</string>
+  <string name="home_screen_style_regular">"ریگولر"</string>
+  <string name="home_screen_style_single">"کوئی ایپ ڈرائر نہیں"</string>
+  <string name="home_screen_style_single_summary">"تمام ایپس آئکون ڈیسکٹاپ پر دکھائیں"</string>
+</resources>

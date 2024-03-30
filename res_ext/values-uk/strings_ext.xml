@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"Стиль головного екрана"</string>
+    <string name="home_screen_style_notification">"Застосування змін стилю головного екрана"</string>
+    <string name="folder_icon_model_pref_title">"Стиль значка папки"</string>
+    <string name="auto_model">"Автом."</string>
+    <string name="annular_model">"Круговий"</string>
+    <string name="grid_model">"Шкала"</string>
+    <string name="desktop_grid">"Сітка робочого столу"</string>
+    <string name="notification_dots_ext_summary">"Коли увімкнено відображення точки для сповіщень"</string>
+  <string name="home_screen_style_dual">"З панеллю додатків"</string>
+  <string name="home_screen_style_dual_summary">"Розмістіть значки усіх додатків на панелі додатків"</string>
+  <string name="home_screen_style_regular">"Звичайний"</string>
+  <string name="home_screen_style_single">"Без панелі додатків"</string>
+  <string name="home_screen_style_single_summary">"Показати значки всіх додатків на робочому столі"</string>
+</resources>

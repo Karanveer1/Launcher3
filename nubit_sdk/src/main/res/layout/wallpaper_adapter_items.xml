@@ -1,0 +1,56 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wallpaper_cardview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardElevation="0dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/wallpaper_items_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:id="@+id/img_fram_cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/wallpaper_banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp" />
+
+            <ImageView
+                android:id="@+id/img_wall_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="5dp"
+                android:paddingTop="25dp"
+                android:src="@drawable/news_share" />
+
+        </FrameLayout>
+
+
+        <include
+            android:id="@+id/layout_admob"
+            layout="@layout/layout_admob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

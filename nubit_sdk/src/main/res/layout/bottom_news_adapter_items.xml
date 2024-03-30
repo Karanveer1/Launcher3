@@ -1,0 +1,212 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomNews_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="0dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/bottomNews_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cardview_style">
+
+        <FrameLayout
+            android:id="@+id/img_fram_cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/img_bottomNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY" />
+
+
+            <ImageView
+                android:id="@+id/center_play_btn_uTube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/icon_play"
+                android:visibility="visible" />
+
+
+            <FrameLayout
+                android:id="@+id/mp4_layout"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/black"
+                android:visibility="gone">
+
+                <com.skd.nubit.videoplayerstuffs.UniversalVideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    app:uvv_autoRotation="true"
+                    app:uvv_fitXY="false" />
+
+                <!--   <videoplayerstuffs.UniversalMediaController
+                       android:id="@+id/media_controller"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       app:uvv_scalable="true" />-->
+
+                <ImageView
+                    android:id="@+id/center_play_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:src="@drawable/icon_play"
+                    android:visibility="visible" />
+
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/newsBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/newsDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/txt_bottomNews_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_fram_cont"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="News Title"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txt_bottomNews_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_bottomNews_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:maxLines="5"
+            android:text="News Desc"
+            android:textColor="#8e8e8e"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_bottomNews_des"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+
+            <Button
+                android:id="@+id/btn_bottomNews_readMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_background"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="7dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="7dp"
+                android:stateListAnimator="@null"
+                android:text="READ FULL STORY"
+                android:textAllCaps="true"
+                android:textColor="@color/button_text_style"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/img_bottomNews_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:padding="7dp"
+                android:src="@drawable/share_news" />
+
+
+            <ImageView
+                android:id="@+id/img_bottomNews_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@+id/img_bottomNews_dislike"
+                android:paddingTop="7dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="7dp"
+                android:src="@drawable/like_desele" />
+
+
+            <ImageView
+                android:id="@+id/img_bottomNews_dislike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="7dp"
+                android:src="@drawable/dislike_desele" />
+        </RelativeLayout>
+
+
+        <include
+            android:id="@+id/layout_admob"
+            layout="@layout/layout_admob_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

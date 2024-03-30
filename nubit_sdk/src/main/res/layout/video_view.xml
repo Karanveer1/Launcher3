@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:id="@+id/parent"
+    android:background="#F6F6F6">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </WebView>
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#fff"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#fff"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        android:src="@drawable/banner_eg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="12dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginTop="5dp"
+        app:cardElevation="0dp">
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:videoId=""
+            app:autoPlay="true" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!--<FrameLayout-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginBottom="10dp"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@id/title"-->
+    <!--    android:background="#000"-->
+    <!--    android:visibility="gone"-->
+    <!--    android:scaleType="center"-->
+    <!--    android:id="@+id/media_container">-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/title"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        android:layout_marginBottom="15dp"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:visibility="gone"-->
+    <!--        android:textColor="#000"-->
+    <!--        android:textSize="15sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintBottom_toTopOf="@id/media_container"-->
+    <!--        android:text="This is the title"/>-->
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="25dp"-->
+    <!--        android:layout_height="25dp"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        android:layout_gravity="end|bottom"-->
+    <!--        android:id="@+id/volume_control"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        android:alpha="0"-->
+    <!--        android:animateLayoutChanges="true"-->
+    <!--        android:layout_marginEnd="15dp"-->
+    <!--        android:layout_marginBottom="15dp"/>-->
+
+    <!--    <ProgressBar-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/progressBar"-->
+    <!--        style="?android:attr/progressBarStyle"-->
+    <!--        android:visibility="gone"-->
+    <!--        android:layout_gravity="center" />-->
+    <!--</FrameLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

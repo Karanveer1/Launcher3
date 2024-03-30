@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dynamic_icon_title">"டைனமிக் ஐகான்"</string>
+<string name="allow_circular_sliding_title">"முகப்புத் திரை லூப்"</string>
+<string name="allow_circular_sliding_summary">"கஸ்டம் கன்டென்ட் இடதுபக்க பக்க செட்டிங் முகப்புத் திரை லூப்பை அனுமதிக்கவில்லை"</string>
+</resources>

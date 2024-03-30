@@ -1,0 +1,267 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.skd.nubit" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="23"
+7-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="34" />
+8-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+10-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:6:5-81
+10-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:6:22-78
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:7:5-79
+11-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:7:22-76
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:8:5-68
+12-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:8:22-65
+13    <uses-permission
+13-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:9:5-11:38
+14        android:name="android.permission.GET_ACCOUNTS"
+14-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:10:9-55
+15        android:maxSdkVersion="27" />
+15-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:11:9-35
+16    <uses-permission
+16-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:12:5-13:47
+17        android:name="android.permission.PACKAGE_USAGE_STATS"
+17-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:12:22-75
+18        tools:ignore="ProtectedPermissions" />
+18-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:13:9-44
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:14:5-80
+19-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:14:22-77
+20    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+20-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:15:5-75
+20-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:15:22-72
+21
+22    <!-- To access Google+ APIs: -->
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:19:5-67
+24-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:19:22-64
+25    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+25-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:20:5-72
+25-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:20:22-69
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+26-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:21:5-81
+26-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:21:22-78
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+27-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:22:5-75
+27-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:22:22-72
+28
+29    <uses-feature android:name="android.hardware.camera" />
+29-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:24:5-60
+29-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:24:19-57
+30    <uses-feature android:name="android.hardware.camera.flash" />
+30-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:25:5-66
+30-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:25:19-63
+31
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:27:5-79
+32-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:27:22-76
+33    <uses-permission android:name="android.permission.CAMERA" />
+33-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:28:5-65
+33-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:28:22-62
+34    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+34-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:29:5-71
+34-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:29:22-68
+35
+36    <application
+36-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:31:5-141:19
+37        android:name="com.skd.nubit.utilityclasses.MyApplication"
+37-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:32:9-66
+38        android:allowBackup="true"
+38-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:33:9-35
+39        android:icon="@mipmap/nubit_app_logo"
+39-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:34:9-46
+40        android:label="@string/app_name"
+40-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:35:9-41
+41        android:networkSecurityConfig="@xml/network_security_config"
+41-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:39:9-69
+42        android:roundIcon="@mipmap/nubit_app_logo"
+42-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:36:9-51
+43        android:supportsRtl="true"
+43-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:37:9-35
+44        android:theme="@style/AppTheme"
+44-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:38:9-40
+45        android:usesCleartextTraffic="true" >
+45-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:40:9-44
+46        <activity
+46-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:41:9-48:74
+47            android:name="com.skd.nubit.videoplayerstuffs.YouTube_PlayerActivity"
+47-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:42:13-82
+48            android:autoRemoveFromRecents="true"
+48-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:43:13-49
+49            android:configChanges="keyboardHidden|orientation|screenSize"
+49-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:45:13-74
+50            android:exported="false"
+50-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:44:13-37
+51            android:label=""
+51-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:46:13-29
+52            android:screenOrientation="portrait"
+52-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:47:13-49
+53            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+53-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:48:13-71
+54        <activity
+54-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:51:9-58:49
+55            android:name="com.skd.nubit.youtubewebview.YouTubeIframe"
+55-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:52:13-70
+56            android:autoRemoveFromRecents="true"
+56-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:53:13-49
+57            android:configChanges="keyboardHidden|orientation|screenSize"
+57-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:55:13-74
+58            android:exported="false"
+58-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:54:13-37
+59            android:hardwareAccelerated="true"
+59-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:56:13-47
+60            android:label=""
+60-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:57:13-29
+61            android:theme="@style/MyCheckBox" />
+61-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:58:13-46
+62        <activity
+62-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:60:9-67:74
+63            android:name="com.skd.nubit.activities.YouTube_Screen"
+63-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:61:13-67
+64            android:autoRemoveFromRecents="true"
+64-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:62:13-49
+65            android:configChanges="keyboardHidden|orientation|screenSize"
+65-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:64:13-74
+66            android:exported="false"
+66-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:63:13-37
+67            android:label=""
+67-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:65:13-29
+68            android:screenOrientation="portrait"
+68-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:66:13-49
+69            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+69-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:67:13-71
+70        <activity
+70-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:69:9-75:49
+71            android:name="com.skd.nubit.youtubewebview.YouTubeScreenIframe"
+71-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:70:13-76
+72            android:autoRemoveFromRecents="true"
+72-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:71:13-49
+73            android:configChanges="keyboardHidden|orientation|screenSize"
+73-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:73:13-74
+74            android:exported="false"
+74-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:72:13-37
+75            android:label=""
+75-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:74:13-29
+76            android:theme="@style/MyCheckBox" />
+76-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:75:13-46
+77        <activity
+77-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:78:9-83:55
+78            android:name="com.skd.nubit.videoplayerstuffs.PlayerActivity"
+78-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:79:13-74
+79            android:configChanges="keyboardHidden|orientation|screenSize"
+79-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:80:13-74
+80            android:exported="false"
+80-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:82:13-37
+81            android:screenOrientation="portrait"
+81-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:81:13-49
+82            android:theme="@style/NoActionBarTheme" />
+82-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:83:13-52
+83        <activity
+83-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:84:9-91:50
+84            android:name="com.skd.nubit.utilityclasses.NativeWebViewActivity"
+84-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:85:13-78
+85            android:configChanges="orientation|screenSize"
+85-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:86:13-59
+86            android:excludeFromRecents="true"
+86-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:87:13-46
+87            android:exported="false"
+87-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:88:13-37
+88            android:launchMode="singleInstance"
+88-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:89:13-48
+89            android:noHistory="true"
+89-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:90:13-37
+90            android:theme="@style/buckettheme" />
+90-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:91:13-47
+91        <activity
+91-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:92:9-96:50
+92            android:name="com.skd.nubit.activities.WallpaperActivity"
+92-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:93:13-70
+93            android:exported="false"
+93-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:95:13-37
+94            android:screenOrientation="portrait"
+94-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:94:13-49
+95            android:theme="@style/buckettheme" />
+95-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:96:13-47
+96        <activity
+96-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:97:9-102:66
+97            android:name="com.skd.nubit.activities.Language_Set_Activity"
+97-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:98:13-74
+98            android:exported="false"
+98-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:101:13-37
+99            android:noHistory="true"
+99-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:99:13-37
+100            android:screenOrientation="portrait"
+100-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:100:13-49
+101            android:theme="@style/Theme.AppCompat.NoActionBar" />
+101-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:102:13-63
+102        <activity
+102-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:103:9-109:57
+103            android:name="com.skd.nubit.activities.ProfileActivity"
+103-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:104:13-68
+104            android:exported="false"
+104-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:107:13-37
+105            android:label="ProfileActivity"
+105-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:105:13-44
+106            android:screenOrientation="portrait"
+106-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:106:13-49
+107            android:theme="@style/Theme.AppCompat.NoActionBar"
+107-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:108:13-63
+108            android:windowSoftInputMode="stateHidden" />
+108-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:109:13-54
+109        <activity
+109-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:110:9-115:66
+110            android:name="com.skd.nubit.activities.YupTv_Activity"
+110-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:111:13-67
+111            android:exported="false"
+111-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:113:13-37
+112            android:label="Live TV"
+112-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:112:13-36
+113            android:screenOrientation="portrait"
+113-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:114:13-49
+114            android:theme="@style/Theme.AppCompat.NoActionBar" />
+114-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:115:13-63
+115        <activity
+115-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:116:9-121:57
+116            android:name="com.skd.nubit.mynotification.Notification_Handler"
+116-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:117:13-77
+117            android:exported="false"
+117-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:120:13-37
+118            android:screenOrientation="portrait"
+118-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:118:13-49
+119            android:theme="@style/AppTheme"
+119-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:119:13-44
+120            android:windowSoftInputMode="stateHidden" />
+120-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:121:13-54
+121
+122        <!-- ./Firebase Notifications -->
+123
+124
+125        <!--
+126          <service android:name=".mynotification.InstanceIdService">
+127              <intent-filter>
+128                  <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+129              </intent-filter>
+130          </service>
+131        -->
+132        <!-- <service android:name="com.skd.nubit.mynotification.MessagingService" -->
+133        <!-- android:exported="true"> -->
+134        <!-- <intent-filter> -->
+135        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+136        <!-- </intent-filter> -->
+137        <!-- </service> -->
+138        <meta-data
+138-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:136:9-139:15
+139            android:name="com.google.android.gms.ads.APPLICATION_ID"
+139-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:137:13-69
+140            android:value="ca-app-pub-7690725764223876~9931818969" />
+140-->/Users/karanveersandhu/AndroidStudioProjects/Launcher3NewGit/nubit_sdk/src/main/AndroidManifest.xml:138:13-67
+141    </application>
+142
+143</manifest>

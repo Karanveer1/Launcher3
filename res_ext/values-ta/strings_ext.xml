@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"முகப்பு திரை பாணி"</string>
+<string name="home_screen_style_notification">"முகப்பு திரை பாணி மாற்றங்கள் செயல்படுத்தப்படுகிறது"</string>
+<string name="folder_icon_model_pref_title">"கோப்புறை சின்னப் பாணி"</string>
+<string name="auto_model">"தானியங்கு"</string>
+<string name="annular_model">"ஆனுலர்"</string>
+<string name="grid_model">"கட்டம்"</string>
+<string name="desktop_grid">"டெஸ்க்டாப் கிரிட்"</string>
+<string name="notification_dots_ext_summary">"அறிவிப்புப் புள்ளிகள் இருக்கும்போது"</string>
+  <string name="home_screen_style_dual">"செயலி டிராயருடன்"</string>
+  <string name="home_screen_style_dual_summary">"எல்லா செயலிகளின் ஐகானையும் செயலி டிராயரில் வைக்கவும்"</string>
+  <string name="home_screen_style_regular">"வழக்கமான"</string>
+  <string name="home_screen_style_single">"செயலி டிராயர் இல்லை"</string>
+  <string name="home_screen_style_single_summary">"எல்லா செயலிகளின் ஐகானையும் டெஸ்க்டாப்பில் காட்டுக"</string>
+</resources>

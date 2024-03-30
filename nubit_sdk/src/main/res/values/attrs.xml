@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/* Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- BubbleTextView specific attributes. -->
+    <declare-styleable name="BubbleTextView">
+        <attr name="layoutHorizontal" format="boolean" />
+        <attr name="iconSizeOverride" format="dimension" />
+        <attr name="iconDisplay" format="integer">
+            <enum name="workspace" value="0" />
+            <enum name="all_apps" value="1" />
+            <enum name="folder" value="2" />
+            <enum name="widget_section" value="3" />
+        </attr>
+        <attr name="deferShadowGeneration" format="boolean" />
+        <attr name="customShadows" format="boolean" />
+        <attr name="centerVertically" format="boolean" />
+    </declare-styleable>
+
+
+
+    <!-- PagedView specific attributes. These attributes are used to customize
+         a PagedView view in XML files. -->
+    <declare-styleable name="PagedView">
+        <!-- The page indicator for this workspace -->
+        <attr name="pageIndicator" format="reference" />
+    </declare-styleable>
+
+    <!-- BaseContainerView specific attributes. These attributes are used to customize
+         AllApps view and WidgetsView in xml. -->
+    <declare-styleable name="BaseContainerView">
+        <!-- Drawable to use for the reveal animation -->
+        <attr name="revealBackground" format="reference" />
+    </declare-styleable>
+
+    <!-- XML attributes used by default_workspace.xml -->
+    <declare-styleable name="Favorite">
+        <attr name="className" format="string" />
+        <attr name="packageName" format="string" />
+        <attr name="container" format="string" />
+        <attr name="screen" format="string" />
+        <attr name="x" format="string" />
+        <attr name="y" format="string" />
+        <attr name="spanX" format="string" />
+        <attr name="spanY" format="string" />
+        <attr name="icon" format="reference" />
+        <attr name="title" format="string" />
+        <attr name="uri" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="Extra">
+        <attr name="key" format="string" />
+        <attr name="value" format="string" />
+    </declare-styleable>
+    <declare-styleable name="Include">
+        <attr name="workspace" format="reference" />
+        <attr name="folderItems" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PreloadIconDrawable">
+        <attr name="background" format="reference" />
+        <attr name="ringOutset" format="dimension" />
+        <attr name="indicatorSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="InsettableFrameLayout_Layout">
+        <attr name="layout_ignoreInsets" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonDropTarget">
+        <attr name="hideParentOnDisable" format="boolean" />
+    </declare-styleable>
+
+    <!-- Fallback attr for pre-API 25 support -->
+    <attr name="colorSecondary" format="reference|color" />
+
+
+
+    <!-- Pixel -->
+    <attr name="ambientShadowColor" format="color" />
+    <attr name="keyShadowColor" format="color" />
+    <attr name="ambientShadowBlur" format="dimension" />
+    <attr name="keyShadowBlur" format="dimension" />
+    <attr name="keyShadowOffset" format="dimension" />
+
+
+    <declare-styleable name="CircularImageView">
+        <attr name="civ_border" format="boolean" />
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_shadow" format="boolean" />
+        <attr name="civ_shadow_color" format="color" />
+        <attr name="civ_shadow_radius" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator"><attr format="dimension" name="ci_width"/><attr format="dimension" name="ci_height"/><attr format="dimension" name="ci_margin"/><attr format="reference" name="ci_animator"/><attr format="reference" name="ci_animator_reverse"/><attr format="reference" name="ci_drawable"/><attr format="reference" name="ci_drawable_unselected"/><attr format="enum" name="ci_orientation">
+
+        <enum name="horizontal" value="0"/>
+
+        <enum name="vertical" value="1"/>
+    </attr><attr name="ci_gravity">
+
+        <flag name="top" value="0x30"/>
+
+        <flag name="bottom" value="0x50"/>
+
+        <flag name="left" value="0x03"/>
+
+        <flag name="right" value="0x05"/>
+
+        <flag name="center_vertical" value="0x10"/>
+
+        <flag name="fill_vertical" value="0x70"/>
+
+        <flag name="center_horizontal" value="0x01"/>
+
+        <flag name="fill_horizontal" value="0x07"/>
+
+        <flag name="center" value="0x11"/>
+
+        <flag name="fill" value="0x77"/>
+
+        <flag name="clip_vertical" value="0x80"/>
+
+        <flag name="clip_horizontal" value="0x08"/>
+
+        <flag name="start" value="0x00800003"/>
+
+        <flag name="end" value="0x00800005"/>
+    </attr></declare-styleable>
+
+
+   <!-- <declare-styleable name="CircleIndicator_splash"><attr format="dimension" name="cii_width"/><attr format="dimension" name="cii_height"/><attr format="dimension" name="cii_margin"/><attr format="reference" name="cii_animator"/><attr format="reference" name="cii_animator_reverse"/><attr format="reference" name="cii_drawable"/><attr format="reference" name="cii_drawable_unselected"/><attr format="enum" name="cii_orientation">
+
+        <enum name="horizontal" value="0"/>
+
+        <enum name="vertical" value="1"/>
+    </attr><attr name="cii_gravity">
+
+        <flag name="top" value="0x30"/>
+
+        <flag name="bottom" value="0x50"/>
+
+        <flag name="left" value="0x03"/>
+
+        <flag name="right" value="0x05"/>
+
+        <flag name="center_vertical" value="0x10"/>
+
+        <flag name="fill_vertical" value="0x70"/>
+
+        <flag name="center_horizontal" value="0x01"/>
+
+        <flag name="fill_horizontal" value="0x07"/>
+
+        <flag name="center" value="0x11"/>
+
+        <flag name="fill" value="0x77"/>
+
+        <flag name="clip_vertical" value="0x80"/>
+
+        <flag name="clip_horizontal" value="0x08"/>
+
+        <flag name="start" value="0x00800003"/>
+
+        <flag name="end" value="0x00800005"/>
+    </attr></declare-styleable>-->
+
+</resources>

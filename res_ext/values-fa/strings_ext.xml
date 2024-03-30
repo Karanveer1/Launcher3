@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_screen_style_title">"سبک صفحه اصلی"</string>
+    <string name="home_screen_style_notification">"اعمال تغییرات سبک صفحه اصلی"</string>
+    <string name="folder_icon_model_pref_title">"سبک آیکون پوشه"</string>
+    <string name="auto_model">"خودکار"</string>
+    <string name="annular_model">"حلقوى"</string>
+    <string name="grid_model">"شبکه"</string>
+    <string name="desktop_grid">"شبکه دسک‌تاپ"</string>
+    <string name="notification_dots_ext_summary">"هنگامی‌که نقاط اعلان روشن است"</string>
+  <string name="home_screen_style_dual">"با كشوي نرم افزار"</string>
+  <string name="home_screen_style_dual_summary">"تمام  نمادهاي نرم افزار را در كشوي نرم افزار قرار دهيد"</string>
+  <string name="home_screen_style_regular">"منظم"</string>
+  <string name="home_screen_style_single">"کشوی برنامه وجود ندارد"</string>
+  <string name="home_screen_style_single_summary">"نماد همه برنامه ها را روی دسک تاپ نشان دهید"</string>
+</resources>

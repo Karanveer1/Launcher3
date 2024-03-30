@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="annular_model">"Ringvormig"</string>
+  <string name="auto_model">"Auto"</string>
+  <string name="desktop_grid">"Bureaubladraster"</string>
+  <string name="folder_icon_model_pref_title">"Stijl mappictogram"</string>
+  <string name="grid_model">"Rooster"</string>
+  <string name="home_screen_style_dual">"Met app-lade"</string>
+  <string name="home_screen_style_dual_summary">"Pictogram van alle apps in de app-lade plaatsen"</string>
+  <string name="home_screen_style_notification">"Stijlwijzigingen op het startscherm toepassen"</string>
+  <string name="home_screen_style_regular">"Regelmatig"</string>
+  <string name="home_screen_style_single">"Geen app-lade"</string>
+  <string name="home_screen_style_single_summary">"Toon alle app pictogrammen op het bureaublad"</string>
+  <string name="home_screen_style_title">"Startscherm"</string>
+  <string name="notification_dots_ext_summary">"Als de meldingspuntjes aan staan"</string>
+</resources>

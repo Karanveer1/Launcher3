@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dynamic_icon_title">"متحرک آئکن"</string>
+<string name="allow_circular_sliding_title">"ہوم اسکرین لوپ"</string>
+<string name="allow_circular_sliding_summary">"کسٹم کنٹینٹ بائيں صفحہ کی سیٹنگس ہوم اسکرین لوپ کی اجازت نہی دیتی"</string>
+</resources>

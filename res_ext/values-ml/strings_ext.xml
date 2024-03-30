@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"ഹോം സ്ക്രീനിന്റെ രൂപഘടന"</string>
+<string name="home_screen_style_notification">"ഹോം സ്ക്രിനിൽ വരുത്തിയ രൂപഘടനാ മാറ്റങ്ങൾ പ്രയോഗിക്കുന്നു"</string>
+<string name="folder_icon_model_pref_title">"ഫോൾഡർ ഐക്കണിന്റെ രൂപഘടന"</string>
+<string name="auto_model">"സ്വയം"</string>
+<string name="annular_model">"വളയാകൃതി"</string>
+<string name="grid_model">"ഗ്രിഡ്"</string>
+<string name="desktop_grid">"ഡസ്ക്ടോപ് ചട്ടക്കൂട്"</string>
+<string name="notification_dots_ext_summary">"നോട്ടിഫിക്കേഷൻ ഡോട്ടുകൾ ഓൺ ആകുമ്പോൾ"</string>
+  <string name="home_screen_style_dual">"ആപ്പ് ഡ്രോയർ ഉപയോഗിച്ച്"</string>
+  <string name="home_screen_style_dual_summary">"എല്ലാ ആപ്പ് ഐക്കണും ആപ്പ് ഡ്രോയറിൽ വയ്ക്കുക"</string>
+  <string name="home_screen_style_regular">"പതിവായി"</string>
+  <string name="home_screen_style_single">"ആപ്പ് ഡ്രോയറില്ല"</string>
+  <string name="home_screen_style_single_summary">"ഡെസ്ക്ക്‌ടോപ്പിൽ എല്ലാ ആപ്പുകൾ ഐക്കണും കാണിക്കുക"</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="home_screen_style_title">"Stili i ekranit Home"</string>
+<string name="home_screen_style_notification">"Duke aplikuar ndryshimet në stilin e ekranit Home"</string>
+<string name="folder_icon_model_pref_title">"Stili i ikonës së dosjeve"</string>
+<string name="auto_model">Auto</string>
+<string name="annular_model">"E rrumbullakët"</string>
+<string name="grid_model">"rrjet"</string>
+<string name="desktop_grid">"Rrjetë desktopi"</string>
+<string name="notification_dots_ext_summary">"Kur pikat e njoftimit është ndezur"</string>
+  <string name="home_screen_style_dual">"Me sirtarin e aplikacionit"</string>
+  <string name="home_screen_style_dual_summary">"Vendosni ikonën e të gjitha aplikacioneve në sirtarin e Aplikacionit"</string>
+  <string name="home_screen_style_regular">"I rregullt"</string>
+  <string name="home_screen_style_single">"Asnjë sirtar aplikacioni"</string>
+  <string name="home_screen_style_single_summary">"Shfaq ikonën e të gjitha aplikacioneve në Ekran"</string>
+</resources>
